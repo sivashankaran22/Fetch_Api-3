@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Source+Serif+Pro:wght@200;300;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Permanent+Marker&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; ;
+}
+body{
+    min-width: 100%;
+    overflow-x: hidden;
+    background-color: #CE16E6;
+    text-align: center;
+}
+.div_content{
+    display: flex;
+    justify-content: space-around;
+}
+table,td,th{
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    background-color:#1B0609;
+    color: #FBFBF9;
+    
+}
+.para_txt{
+    color:#FBFBF9 ;
+    font-family:Permanent Marker ;
+    font-size: 18px;
+}
+.pho{
+    height: 222px;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+.font{
+    font-family:Caveat ;
+    font-size: 22px;
+}
